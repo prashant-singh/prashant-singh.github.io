@@ -15,7 +15,7 @@ twitter_username: '_prashantsingh_'
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 permalink: '/:title/'
 
 gems: [jekyll-paginate]
