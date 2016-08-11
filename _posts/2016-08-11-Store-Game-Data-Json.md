@@ -23,17 +23,17 @@ Download the zip file from the website and copy the one file SimpleJSON.cs and p
 <hr>
 
 I will initialize some variables first 
-
-```csharp
+<hr>
+<pre class="brush: csharp; title: ; notranslate" title="">
 public string URL;
     string file;
-```
+</pre>
 
 In the Start() I will get the file path which will be used to create and load json file.
 Then check for the file with the extension or by name whatever suits your condition.
 If the file doesn't exist it will create the json file with just a curly braces as the default data in it.
-
-```csharp
+<hr>
+<pre class="brush: csharp; title: ; notranslate" title="">
 void Start()
     {
         data = this;
@@ -48,13 +48,13 @@ void Start()
       // Remove the comment from the below line if you want to update the json file from the given url in inspector.
  	//    StartCoroutine(GetLatestJsonFile());
     }
-```
+</pre>
 
 Now to update values of a node this method will be used to save/update data in the json file
 It will read the whole json file and then create a node if doesn't exist or update the value of that node.
 This method is UpdateFloatData which obviously means to update or create float data from the json and this way you can create/update Integer and string data too.
-
-```csharp
+<hr>
+<pre class="brush: csharp; title: ; notranslate" title="">
 public void UpdateFloatData(string keyName,float FLOATvalue)
     {
         StreamReader sr = new StreamReader(file+".json");
@@ -78,12 +78,12 @@ public void UpdateIntData(string keyName,int INTValue)
         node[keyName].AsInt = INTValue;
         File.WriteAllText(file+".json" , node.ToString()); 
     }
-```
+</pre>
 
 Now to load the json data from the file it will read the complete file and then parse the file and get the node's value just like we do it regularly.
 This method gets only float data you can also get the Integer and String data and it's code is also given below.
-
-```csharp
+<hr>
+<pre class="brush: csharp; title: ; notranslate" title="">
 public float GetFloatData(string keyName)
     {
         float tempValue = 0;
@@ -119,13 +119,13 @@ public int GetIntData(string keyName)
         tempValue = N[keyName];
         return tempValue;
     }
-```
+</pre>
 
 Now If you want to update your json file from the server.
 You can use this method to update the file.
 
-
-```csharp
+<hr>
+<pre class="brush: csharp; title: ; notranslate" title="">
 void GetUpdatedSavedSettingsFromInternet()
     {
         StartCoroutine(GetLatestJsonFile());
@@ -138,7 +138,7 @@ void GetUpdatedSavedSettingsFromInternet()
         yield return textData;
         File.WriteAllText(file+".json" , textData.text.ToString());
     }
-```
+</pre>
 
 I think this would be useful to someone
 
