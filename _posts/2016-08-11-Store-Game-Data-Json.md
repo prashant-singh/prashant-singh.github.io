@@ -16,7 +16,7 @@ So this way I never need to update the game for just minor changes like these.
 
 And this cannot be possible without any JSON parser and I use SimpleJSON which is so much cool script and easy to use.
 
-###Here is the link of [SimpleJSON](http://wiki.unity3d.com/index.php/SimpleJSON)
+<b>Here is the link of [SimpleJSON](http://wiki.unity3d.com/index.php/SimpleJSON)</b>
 
 Download the zip file from the website and copy the one file SimpleJSON.cs and place it in the project files folder.
 
