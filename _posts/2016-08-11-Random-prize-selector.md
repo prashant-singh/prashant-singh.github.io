@@ -21,11 +21,11 @@ Then I am creating a temporary list of int to do something I will tell you in th
 ```
 
 
-This is the main part for the magic to happen.
+This is the main part of the magic to happen.
 Remember when I said that I will tell you about the temporary list in the next steps,
 Well this is that step
-I will fill the list based on the frequencies set in the inpector which I will do it later after completing this script.
-Now for example if I have set the frequency of the second prize to be highest like 8 out of 10 so the prize number 2 will be added 8 times in the temporary list and vice-versa.
+I will fill the list based on the frequencies set in the inspector which I will do it later after completing this script.
+Now, for example if I have set the frequency of the second prize to be highest like 8 out of 10 so the prize number 2 will be added 8 times in the temporary list and vice-versa.
 And don't forget to call this function in the Start().
 
 ```
@@ -40,8 +40,8 @@ void Init()
     }
 ```
 
-This adds the given prize number in the list itemTotal times which is our frequency for the given prize set in the inpector.
-This means the more the frequncy value the more the chance of the item to be selected from the list.
+This adds the given prize number in the list itemTotal times which is our frequency for the given prize set in the inspector.
+This means the more the frequency value the more the chance of the item to be selected from the list.
 
 ```
 void AddItemsInList(int itemTotal,int prizeNum)
@@ -83,9 +83,9 @@ Now in the second screenshot
 
 ![Screenshot 2](https://raw.githubusercontent.com/prashant-singh/prashant-singh.github.io/master/img/image01.png)
  
- you can see the result that the most selected prize was the prize number 2 and the least was the prize 4 and other prizes as their frequencies
+You can see the result that the most selected prize was the prize number 2 and the least was the prize 4 and other prizes as their frequencies.
  
- So this was not suppose to be a long tutorial of something so much important but this can help some of you if you ever need to implement this.
+ So this was not suppose to be a long tutorial of something so much important, but this can help some of you if you ever need to implement this.
 
 
 
