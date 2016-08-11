@@ -9,16 +9,16 @@ Initialize the variables
 In my case I am creating 4 variables for 4 prizes.
 We will add it the range attribute so we get that sexy slider option in the inspector.
 
-```csharp
+<pre class="brush: csharp; title: ; notranslate" title="">
  [Range(0,10)]
     public int prize1,prize2,prize3,prize4;
-```
+</pre>
 
 Then I am creating a temporary list of int to do something I will tell you in the next steps.
 
-```csharp
+<pre class="brush: csharp; title: ; notranslate" title="">
     List<int> prizeList = new List<int>();
-```
+</pre>
 
 
 This is the main part of the magic to happen.
