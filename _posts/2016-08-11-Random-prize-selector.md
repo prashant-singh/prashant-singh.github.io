@@ -9,16 +9,24 @@ Initialize the variables
 In my case I am creating 4 variables for 4 prizes.
 We will add it the range attribute so we get that sexy slider option in the inspector.
 
+
+
 <pre class="brush: csharp; title: ; notranslate" title="">
  [Range(0,10)]
     public int prize1,prize2,prize3,prize4;
 </pre>
 
+
+
 Then I am creating a temporary list of int to do something I will tell you in the next steps.
+
+
 
 <pre class="brush: csharp; title: ; notranslate" title="">
     List&lt;int&gt; prizeList = new List&lt;int&gt;();
 </pre>
+
+
 
 
 This is the main part of the magic to happen.
@@ -28,7 +36,9 @@ I will fill the list based on the frequencies set in the inspector which I will 
 Now, for example if I have set the frequency of the second prize to be highest like 8 out of 10 so the prize number 2 will be added 8 times in the temporary list and vice-versa.
 And don't forget to call this function in the Start().
 
-```csharp
+
+
+<pre class="brush: csharp; title: ; notranslate" title="">
 void Init()
     {
         prizeList.Clear ();
@@ -38,12 +48,16 @@ void Init()
         AddItemsInList (prize3,3);
         AddItemsInList (prize4,4);
     }
-```
+</pre>
+
+
 
 This adds the given prize number in the list itemTotal times which is our frequency for the given prize set in the inspector.
 This means the more the frequency value the more the chance of the item to be selected from the list.
 
-```csharp
+
+
+<pre class="brush: csharp; title: ; notranslate" title="">
 void AddItemsInList(int itemTotal,int prizeNum)
     {
         for (int count = 0; count < itemTotal; count++) 
@@ -51,20 +65,27 @@ void AddItemsInList(int itemTotal,int prizeNum)
             prizeList.Add (prizeNum);
         }
     }
-```
+</pre>
+
+
 
  Now when I have done everything I just need to select the random number from the list I have created above.
+
+
  
-```csharp
+<pre class="brush: csharp; title: ; notranslate" title="">
 void SelectRandomPrize()
     {
         // Now we just have to select the prize number from the list which we have created.
         int selectedRandomPrizeNumber = prizeList [Random.Range (0, prizeList.Count)];
         Debug.Log ("Prize Number "+selectedRandomPrizeNumber);
     }
-```
+</pre>
+
+
 
 So this is it.
+
 
 
 Here is the full code on github
