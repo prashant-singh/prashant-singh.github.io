@@ -4,8 +4,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+ font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   line-height: 1.6;
   color: #32383B; }
 
@@ -168,7 +168,7 @@ a:hover {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
   color: #383e41;
   background-color: #f3f6fa;
@@ -177,7 +177,7 @@ a:hover {
   padding: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: 'Roboto', sans-serif;
   color: #567482;
   word-wrap: normal;
   background-color: #f3f6fa;
@@ -322,7 +322,7 @@ a:hover {
     margin: 0 auto;} }
 
     input {
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-size: 14px;
       padding: 0.4em;
       width: 75%;
