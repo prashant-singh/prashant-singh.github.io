@@ -31,7 +31,7 @@ Then I am creating a temporary list of int to do something I will tell you in th
 
 This is the main part of the magic to happen.
 Remember when I said that I will tell you about the temporary list in the next steps,
-Well this is that step
+Well this is that step.
 I will fill the list based on the frequencies set in the inspector which I will do it later after completing this script.
 Now, for example if I have set the frequency of the second prize to be highest like 8 out of 10 so the prize number 2 will be added 8 times in the temporary list and vice-versa.
 And don't forget to call this function in the Start().
@@ -97,8 +97,8 @@ Now time for some screenshots
 ![Screenshot 1](https://raw.githubusercontent.com/prashant-singh/prashant-singh.github.io/master/img/image00.png)
 
 
-As you will see in the screenshot 1 that I have set the prize 2 frequency to 8
-And the lowest will be prize 4 which is 1
+As you will see in the screenshot 1 that I have set the prize 2 frequency to 8,
+And the lowest will be prize 4 which is 1.
 
 Now in the second screenshot
 
