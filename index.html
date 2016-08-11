@@ -1,52 +1,61 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Prashant Singh ~ Github</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
-    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Prashant Singh</h1>
-      <h2 class="project-tagline">Game Developer</h2>
-      <a href="https://github.com/prashant-singh/" class="btn">View on GitHub</a>
-    </section>
+---
+layout: default
+---
 
-    <section class="main-content">
-      <h1>
-<a id="hi" class="anchor" href="#hi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hi.</h1>
 
-<p>I just make video games using <a href="https://www.unity3d.com">Unity3D Engine</a>. I am working in an IT company as a full time video game developer.
-I am recently taking interest in <a href="https://docs.unity3d.com/Manual/ExtendingTheEditor.html">Editor Scripting</a> that will take a little time to write the code and then saves a lot of your time and you can focus on the main part of the project.</p>
+{% for post in paginator.posts %}
 
-<p>I like to share my work and my codes for free I haven't shared any of my developed games source code because of my current company's policy.</p>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<p>I will share my games[with source code] if I develop some in my free time. And I also know some of the <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html">Scriptable Objects</a>.</p>
+    <div class="main-content" itemprop="articleBody">
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="blog{{ forloop.index }}"></a>
 
-<p>Me and my friends Harshit (<a href="https://github.com/notrorschach" class="user-mention">@notrorschach</a>) and <a href="https://www.facebook.com/PillaiSreejit">Sreejit</a> work together in a IT company as game developers.</p>
+  <header class="post-header">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a>
 
-<h1>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h1>
+  </header>
 
-<p>If you get stuck with my code or want to follow up you can follow me on <a href="https://www.twitter.com/_prashantsingh_">twitter</a> or email me on <a href="mailto:hi@prashantsingh.xyz?Subject=From%20Github">hi@prashantsingh.xyz</a>.</p>
+    {{ post.content }}
 
-<p>Peace!</p>
+<p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <label for="our-popup-{{ forloop.index }}"><i class="fa fa-share"></i> Share / Permalink</label></p>
 
-      <footer class="site-footer">
+	<span>
+		<input type="checkbox" id="our-popup-{{ forloop.index }}" class="smoosh" />
 
-        <span class="site-footer-credits">Well, No Rights Reserved by Prashant Singh.</a> And <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+		<!-- invisible; when checked, the popup opens -->
+		<label for="our-popup-{{ forloop.index }}" class="overlay"></label>
 
-    </section>
+		<!-- the popup starts here -->
+		<div class="overlay-dialogue">
+			<h3>Share "{{ post.title  }}"</h3>
 
-  
-  </body>
-</html>
+            <!-- Target -->
+<input id="foo{{ forloop.index }}" value="{{ site.url }}{{ post.url }}" type="url">
+
+<!-- Trigger -->
+<button class="share-btn" data-clipboard-target="#foo{{ forloop.index }}">COPY LINK
+</button>
+            <p style="text-align: center;">Share on: <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a> • <a href="https://twitter.com/share?url={{ site.url }}{{ post.url }}&amp;text={{ post.title }}" target="_blank">Twitter</a>
+
+			<p style="text-align: center;"><label for="our-popup-{{ forloop.index }}">cancel</label></p>
+		</div>
+	</span>
+
+  </div>
+
+</article>
+
+{% endfor %}
+
+<div class="pagination" style="text-align: center;">
+
+  {% if paginator.next_page %}
+    <h2><a href="{{ paginator.next_page_path }}" class="next">- more posts -</a></h2>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <h2><a href="{{ paginator.previous_page_path }}" class="previous">- previous page -</a></h2>
+  {% endif %}
+
+</div>
