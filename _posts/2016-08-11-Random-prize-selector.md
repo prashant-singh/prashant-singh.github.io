@@ -9,24 +9,24 @@ Initialize the variables
 In my case I am creating 4 variables for 4 prizes.
 We will add it the range attribute so we get that sexy slider option in the inspector.
 
-
+<hr>
 
 <pre class="brush: csharp; title: ; notranslate" title="">
  [Range(0,10)]
     public int prize1,prize2,prize3,prize4;
 </pre>
 
-
+<hr>
 
 Then I am creating a temporary list of int to do something I will tell you in the next steps.
 
-
+<hr>
 
 <pre class="brush: csharp; title: ; notranslate" title="">
     List&lt;int&gt; prizeList = new List&lt;int&gt;();
 </pre>
 
-
+<hr>
 
 
 This is the main part of the magic to happen.
@@ -36,7 +36,7 @@ I will fill the list based on the frequencies set in the inspector which I will 
 Now, for example if I have set the frequency of the second prize to be highest like 8 out of 10 so the prize number 2 will be added 8 times in the temporary list and vice-versa.
 And don't forget to call this function in the Start().
 
-
+<hr>
 
 <pre class="brush: csharp; title: ; notranslate" title="">
 void Init()
@@ -50,12 +50,12 @@ void Init()
     }
 </pre>
 
-
+<hr>
 
 This adds the given prize number in the list itemTotal times which is our frequency for the given prize set in the inspector.
 This means the more the frequency value the more the chance of the item to be selected from the list.
 
-
+<hr>
 
 <pre class="brush: csharp; title: ; notranslate" title="">
 void AddItemsInList(int itemTotal,int prizeNum)
@@ -67,11 +67,11 @@ void AddItemsInList(int itemTotal,int prizeNum)
     }
 </pre>
 
-
+<hr>
 
  Now when I have done everything I just need to select the random number from the list I have created above.
 
-
+<hr>
  
 <pre class="brush: csharp; title: ; notranslate" title="">
 void SelectRandomPrize()
@@ -81,7 +81,7 @@ void SelectRandomPrize()
         Debug.Log ("Prize Number "+selectedRandomPrizeNumber);
     }
 </pre>
-
+<hr>
 
 
 So this is it.
