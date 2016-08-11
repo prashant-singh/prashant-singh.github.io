@@ -20,7 +20,7 @@ And this cannot be possible without any JSON parser and I use SimpleJSON which i
 
 Download the zip file from the website and copy the one file SimpleJSON.cs and place it in the project files folder.
 
-***
+<hr>
 
 I will initialize some variables first 
 
