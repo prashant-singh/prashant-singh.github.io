@@ -15,8 +15,11 @@ So everytime the game connects to the internet it will check for the json file c
 So this way I never need to update the game for just minor changes like these.
 
 And this cannot be possible without any JSON parser and I use SimpleJSON which is so much cool script and easy to use.
+
 ####Here is the link of [SimpleJSON](http://wiki.unity3d.com/index.php/SimpleJSON)
+
 Download the zip file from the website and copy the one file SimpleJSON.cs and place it in the project files folder.
+
 ***
 
 I will initialize some variables first 
