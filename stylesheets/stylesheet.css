@@ -402,25 +402,25 @@ a:hover {
   background-color: #159957;
 }
 .social-button.facebook .fa {
-  color: #159957;
+  color: #3b5999;
 }
 .social-button.twitter:before {
   background-color: #159957;
 }
 .social-button.twitter .fa {
-  color: #159957;
+  color: #55acee;
 }
 .social-button.reddit:before {
   background-color: #159957;
 }
 .social-button.reddit .fa {
-  color: #159957;
+  color: #ff5700;
 }
 .social-button.linkedin:before {
   background-color: #159957;
 }
 .social-button.linkedin .fa {
-  color: #159957;
+  color: #0077B5;
 }
 .social-button.pinterest:before {
   background-color: #159957;
@@ -444,7 +444,7 @@ a:hover {
   background-color: #159957;
 }
 .social-button.github .fa {
-  color: #159957;
+  color: #000000;
 }
 .social-button:focus:before, .social-button:hover:before {
   top: -20%;
