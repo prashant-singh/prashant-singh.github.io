@@ -350,10 +350,8 @@ a:hover {
 /* SOCIAL MEDIA BUTTONS */
 /* Reset */
 /* Reset */
-@import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
 .social-buttons {
   height: 45px;
-  margin: auto;
   font-size: 0;
   text-align: center;
   position: absolute;
