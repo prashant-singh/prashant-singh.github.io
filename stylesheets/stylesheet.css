@@ -346,19 +346,17 @@ a:hover {
 /* SOCIAL MEDIA BUTTONS */
 .header-elements{
 /*  text-align: center;*/
- margin: 10px;
+  padding: 10px;
 }
-
 
 
 .social-button {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.08);
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  margin: 10px 10px;
-  text-align: center;
+  width: 50px;
+  height: 50px;
+    margin: 6px;
+    padding-top: 5px;
   position: relative;
   overflow: hidden;
   opacity: .99;
