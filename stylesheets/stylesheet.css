@@ -28,14 +28,10 @@ a:hover {
   text-decoration: underline; }
 
   .btn {
-      display: inline-block;
-      margin-bottom: 1rem;
+    display: inline-block;
+/*      margin-bottom: 0rem;*/
       color: rgba(255, 255, 255, 0.7);
       background-color: rgba(255, 255, 255, 0.08);
-      border-color: rgba(255, 255, 255, 0.2);
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 0.3rem;
       transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
       .btn:hover {
         color: rgba(255, 255, 255, 0.8);
@@ -59,7 +55,7 @@ a:hover {
           font-size: 1rem; }
           .btn + .btn {
             margin-top: 1rem;
-            margin-left: 0; } }
+            margin-left: 0;  } }
 
 .share-btn {
       display: inline-block;
@@ -348,9 +344,7 @@ a:hover {
         cursor: pointer;
     }
 /* SOCIAL MEDIA BUTTONS */
-.social-buttons {
-  height: 40px;
-  font-size: 0;
+.header-elements{
   text-align: center;
   top: 0;
   bottom: 0;
@@ -358,9 +352,10 @@ a:hover {
   right: 0;
 }
 
+
 .social-button {
   display: inline-block;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.08);
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -369,14 +364,14 @@ a:hover {
   position: relative;
   overflow: hidden;
   opacity: .99;
-  border-radius: 10%;
+  border-radius: 0%;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button:before {
   content: '';
-  background-color: #b21d1d;
+/*  background-color: #b21d1d;*/
   width: 140%;
   height: 140%;
   position: absolute;
@@ -399,50 +394,50 @@ a:hover {
   background-color: #3b5999;
 }
 .social-button.facebook .fa {
-  color: #159957;
+  color: #fff;
     
 }
 .social-button.twitter:before {
   background-color: #55acee;
 }
 .social-button.twitter .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.reddit:before {
   background-color: #ff5700;
 }
 .social-button.reddit .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.linkedin:before {
   background-color: #007bb5;
 }
 .social-button.linkedin .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.pinterest:before {
   background-color: #cb2027;
 }
 .social-button.pinterest .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.steam:before {
   background-color: #666666;
 }
 .social-button.steam .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.envelope-o:before {
   background-color: #dd4b39;
 }
 .social-button.envelope-o .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button.github:before {
   background-color: #000000;
 }
 .social-button.github .fa {
-  color: #159957;
+  color: #fff;
 }
 .social-button:focus:before, .social-button:hover:before {
   top: -20%;
