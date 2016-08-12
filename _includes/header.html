@@ -3,6 +3,11 @@
      <p>by <a class="header-link" href="http://www.prashantsingh.xyz"><b>Prashant Singh</b></a></p>
      <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
      <!--<h3>{% if site.twitter_username %}<a class="header-link" href="http://twitter.com/{{ site.twitter_username }}" target="_blank">follow @{{ site.twitter_username }}</a></h3>{% endif %}-->
+    <br>
+    .social-buttons
+	each name in ['facebook','twitter','google','dribbble','skype','envelope-o']
+		a.social-button(href="#",class=name): i.fa(class="fa-"+name)
+    
      <a href="http://www.prashantsingh.xyz" class="btn">Home</a>
     
       <a href="https://www.twitter.com/_prashantsingh_" class="btn">Twitter</a>
