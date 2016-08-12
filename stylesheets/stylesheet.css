@@ -399,40 +399,52 @@ a:hover {
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button.facebook:before {
-  background-color: #3B5998;
+  background-color: #159957;
 }
 .social-button.facebook .fa {
-  color: #3B5998;
+  color: #159957;
 }
 .social-button.twitter:before {
-  background-color: #3CF;
+  background-color: #159957;
 }
 .social-button.twitter .fa {
-  color: #3CF;
+  color: #159957;
 }
-.social-button.google:before {
-  background-color: #DC4A38;
+.social-button.reddit:before {
+  background-color: #159957;
 }
-.social-button.google .fa {
-  color: #DC4A38;
+.social-button.reddit .fa {
+  color: #159957;
 }
-.social-button.dribbble:before {
-  background-color: #F26798;
+.social-button.linkedin:before {
+  background-color: #159957;
 }
-.social-button.dribbble .fa {
-  color: #F26798;
+.social-button.linkedin .fa {
+  color: #159957;
 }
-.social-button.skype:before {
-  background-color: #00AFF0;
+.social-button.pinterest:before {
+  background-color: #159957;
 }
-.social-button.skype .fa {
-  color: #00AFF0;
+.social-button.pinterest .fa {
+  color: #159957;
 }
-.social-button.email:before {
-  background-color: #00AFF0;
+.social-button.steam:before {
+  background-color: #159957;
 }
-.social-button.email .fa {
-  color: #00AFF0;
+.social-button.steam .fa {
+  color: #159957;
+}
+.social-button.envelope-o:before {
+  background-color: #159957;
+}
+.social-button.envelope-o .fa {
+  color: #159957;
+}
+.social-button.github:before {
+  background-color: #159957;
+}
+.social-button.github .fa {
+  color: #159957;
 }
 .social-button:focus:before, .social-button:hover:before {
   top: -20%;
