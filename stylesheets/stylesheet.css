@@ -348,13 +348,10 @@ a:hover {
         cursor: pointer;
     }
 /* SOCIAL MEDIA BUTTONS */
-/* Reset */
-/* Reset */
 .social-buttons {
-  height: 45px;
+  height: 40px;
   font-size: 0;
   text-align: center;
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -379,7 +376,7 @@ a:hover {
 }
 .social-button:before {
   content: '';
-  background-color: #000;
+  background-color: #b21d1d;
   width: 140%;
   height: 140%;
   position: absolute;
@@ -391,7 +388,7 @@ a:hover {
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button .fa {
-  font-size: 38px;
+  font-size: 40px;
   vertical-align: middle;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
@@ -399,52 +396,53 @@ a:hover {
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button.facebook:before {
-  background-color: #159957;
+  background-color: #3b5999;
 }
 .social-button.facebook .fa {
-  color: #3b5999;
+  color: #159957;
+    
 }
 .social-button.twitter:before {
-  background-color: #159957;
+  background-color: #55acee;
 }
 .social-button.twitter .fa {
-  color: #55acee;
+  color: #159957;
 }
 .social-button.reddit:before {
-  background-color: #159957;
+  background-color: #ff5700;
 }
 .social-button.reddit .fa {
-  color: #ff5700;
+  color: #159957;
 }
 .social-button.linkedin:before {
-  background-color: #159957;
+  background-color: #007bb5;
 }
 .social-button.linkedin .fa {
-  color: #0077B5;
+  color: #159957;
 }
 .social-button.pinterest:before {
-  background-color: #159957;
+  background-color: #cb2027;
 }
 .social-button.pinterest .fa {
   color: #159957;
 }
 .social-button.steam:before {
-  background-color: #159957;
+  background-color: #666666;
 }
 .social-button.steam .fa {
   color: #159957;
 }
 .social-button.envelope-o:before {
-  background-color: #159957;
+  background-color: #dd4b39;
 }
 .social-button.envelope-o .fa {
   color: #159957;
 }
 .social-button.github:before {
-  background-color: #159957;
+  background-color: #000000;
 }
 .social-button.github .fa {
-  color: #000000;
+  color: #159957;
 }
 .social-button:focus:before, .social-button:hover:before {
   top: -20%;
