@@ -348,6 +348,58 @@ a:hover {
 /*  text-align: center;*/
   padding: 10px;
 }
+.social-share-button{
+     background-color: rgba(255, 255, 255, 0.08);
+     display: inline-block;
+  position: relative;
+  overflow: hidden;
+     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+/*     font-family: 'Roboto Mono', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+.social-share-button:before {
+  content: '';
+/*  background-color: #b21d1d;*/
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: -300px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-share-button.facebook:before{
+    background-color: #3b5999;
+}
+
+.social-share-button.twitter:before{
+    background-color: #55acee;
+}
+.social-share-button.reddit:before{
+    background-color: #ff5700;
+}
+
+.social-share-button .fa{
+    color: #fff; 
+     font-size: 40px;
+      -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+  -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+
+}
+
+.social-share-button:hover .fa{
+     -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.social-share-button:focus:before, .social-share-button:hover:before {
+  top: -20%;
+  left: -20%;
+}
 
 
 .social-button {
