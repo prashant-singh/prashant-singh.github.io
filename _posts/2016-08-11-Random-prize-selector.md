@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Random prize selection based on frequencies in Unity3D C#
+summary: Create as many prizes and you can control which prize to be selected more randomly.
+tags: [Unity, Random, Programming]
+categories: [Unity, Programming]
 ---
 
 This post will just let you know how you can create a controlled random selection script that you can use in some gambling games like spinning wheel.
