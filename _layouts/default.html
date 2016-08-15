@@ -6,12 +6,11 @@
   <body>
 
     {% include header.html %}
- <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description | strip_html }}{% endif %}">
-    <!--<section class="main-content">-->
-    <!--  <div class="wrapper">-->
-    <!--    {{ content }}-->
-    <!--  </div>-->
-    <!--</div>-->
+    <section class="main-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
     {% include footer.html %}
 
