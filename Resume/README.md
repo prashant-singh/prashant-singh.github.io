@@ -1,4 +1,4 @@
 # resume
-Generate resume in static html page. Built with Jinja2 template engine, YAML and Bootstrap.
+Working on my resume
 
-Check out [my resume page](http://zhanghongyi.github.io/resume/).
+using template of https://github.com/zhanghongyi
