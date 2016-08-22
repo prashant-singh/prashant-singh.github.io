@@ -1,184 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Hongyi Zhang">
-  <title>Resume Page</title>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/mystyle.css">
+  <title>Louisa Barrett</title>
+  <meta charset="utf-8">
+  <link href="main.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gudea">
+  <link rel="shortcut icon" href="http://faviconist.com/icons/f9294cc2281f1004e846adbea5f4b316/favicon.ico" />
 </head>
 <body>
-  <div id="content">
-  {% block content %}
-  <div class="container">
-    <div class="page-header">
-      <h1>{{ profile.name }}</h1>
-    </div>
-    {% if setting.education %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Education</h3>
-      </div>
-      <div class="col-md-9">
-        <p>{{ edu.summary }}</p>
-        {% for item in edu.university %}
-            <h4 class="inline block">{{item.name}} <span><p style="float:right"><small>{{item.time}}</small></p></span></h4>
-          <p><i class="fa fa-map-marker"></i> <small>{{item.location}}</small></p>
-          <ul>
-            <li>{{item.summary}}</li>
-            {% if item.highlight %}
-              {% for highlight in item.highlight %}
-                <li>{{highlight}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-    {% if setting.research %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Research Experience</h3>
-      </div>
-      <div class="col-md-9">
-        {% for item in research %}
-          <h4 class="inline block">{{item.name}} <span><p style="float:right"><small>{{item.time}}</small></p></span></h4>
-          <p>{{item.company}} <span style="float:right"><small>{{item.location}}</small></span></p>
-          <ul>
-            {% if item.highlight %}
-              {% for highlight in item.highlight %}
-                <li>{{highlight}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-    {% if setting.work %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Work Experience</h3>
-      </div>
-      <div class="col-md-9">
-        {% for item in work %}
-          <h4 class="inline block">{{item.name}} <span><p style="float:right"><small>{{item.time}}</small></p></span></h4>
-          <p>{{item.company}} <span style="float:right"><small>{{item.location}}</small></span></p>
-          <ul>
-            {% if item.highlight %}
-              {% for highlight in item.highlight %}
-                <li>{{highlight}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-    {% if setting.award %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Academic Honors & Awards</h3>
-      </div>
-      <div class="col-md-9">
-        {% for item in award %}
-          <h4 class="inline block">{{item.name}} <span><p style="float:right"><small>{{item.time}}</small></p></span></h4>
-          <p>{{item.company}} <span><small>{{item.location}}</small></span></p>
-          <ul>
-            {% if item.highlight %}
-              {% for highlight in item.highlight %}
-                <li>{{highlight}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-    {% if setting.skill %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Skills</h3>
-      </div>
-      <div class="col-md-9">
-        {% for item in skill %}
-          <h4>{{item.name}}</h4>
-          <ul>
-            {% if item.list %}
-              {% for li in item.list %}
-                <li>{{li}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-    {% if setting.project %}
-    <div class="row">
-      <div class="col-md-3">
-        <h3>Projects</h3>
-        <p><small>Basically selected courseworks</small></p>
-      </div>
-      <div class="col-md-9">
-        {% for item in project %}
-          <h4 class="inline block">{{item.name}} <span><p style="float:right"><small>{{item.time}}</small></p></span></h4>
-          <p>{{item.summary}}</p>
-          <ul>
-            {% if item.highlight %}
-              {% for highlight in item.highlight %}
-                <li>{{highlight}}</li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
-    <hr />
-    {% endif %}
-
-
-
-  </div>
-  {% endblock %}
-  </div>
-  <div id="footer">
-    {% block footer %}
-    <div class="container text-center">
-    <ul class="list-inline">
-      <li><a href={{ profile.github }}><i class="fa fa-3x fa-github-alt"></i></a></li>
-      <li><a href={{ profile.linkedin }}><i class="fa fa-3x fa-linkedin"></i></a></li>
-      <li><a href={{ "mailto:" + profile.email }}><i class="fa fa-3x fa-envelope-o"></i></a></li>
-    </ul>
-    <p id='date'>Last updated time</p>
-    <p>&copy; Copyright 2015 by <a href="http://zhanghongyi.github.io/">Hongyi Zhang</a>.</p>
-    </div>
-    {% endblock %}
-  </div>
+  <header class="header-details">
+    <h1 class="name">Louisa Barrett | </h1>
+      <article class="links-container">
+        <a class="links" href="https://github.com/LouisaBarrett" target="_blank"><img src="./images/gh_icon.png" alt="github icon" width="21" height="21">GitHub</a>
+        <a class="links" href="https://www.linkedin.com/in/louisabarrett/" target="_blank"><img src="./images/in_icon.png" alt="linkedin icon" width="18" height="18">LinkedIn</a>
+      </article><br>
+      <article class="contact-information">
+        <p class="contact-deets">P.O. Box 384 | </p>
+        <p class="contact-deets">Mead, CO 80542 | </p>
+        <p class="contact-deets">ph: 505.660.9495 | </p>
+        <a class="links" href="mailto:louisabarrett@gmail.com">e: louisabarrett@gmail.com</a>
+      </article>
+  </header>
+  <section class="content">
+    <h2 class="category-headers">Summary</h2><hr>
+      <p class="category-description-main">Developer with 6 months of programming experience and seven years as a graphic designer coordinating with local and remote teams on multiple, simultaneous projects: driven to discover creative, clear solutions for back- and front-end problems and a great interest in UX/UI.</p>
+    <h2 class="category-headers">Education</h2><hr>
+      <p class="primary-titles">Galvanize gSchool | <span class="location">Denver, CO</span></p>
+      <p class="category-details">6-month intensive Ruby on Rails developer training program emphasizing TDD and pair programming<br>September 2013–February 2014</p>
+      <p class="primary-titles">Kansas City Art Institute | <span class="location">Kansas City, MO</span></p>
+      <p class="category-details">BFA, Graphic Design<br>Dean's List 2004–2007<br>2007</p>
+    <h2 class="category-headers">Code</h2><hr>
+      <a class="primary-titles" href="http://github.com/LouisaBarrett/SocialSmarts" target="_blank">Social Smarts | <p class="links">github.com/LouisaBarrett/SocialSmarts</p></a>
+      <p class="category-description">As part of a five-person team and using the Twitter and Klout APIs, created a social media management app that allows a user to process incoming tweets based on various criteria. Primary role was designing and building the front-end from scratch, emphasizing a straightforward and simple experience for the user</p>
+      <a class="primary-titles" href="https://github.com/LouisaBarrett/fundit" target="_blank">FundIt | <p class="links">github.com/LouisaBarrett/fundit</p></a>
+      <p class="category-description">A small, solo project creating a fund-raising site built to practice using Ruby, Rails and RSpec.</p>
+      <a class="primary-titles" href="https://github.com/LouisaBarrett/checkers" target="_blank">Checker Board | <p class="links">github.com/LouisaBarrett/checkers</p></a>
+      <p class="category-description">Practicing Ruby fundamentals by building a game-board for a game of checkers.</p>
+      <a class="primary-titles" href="https://github.com/LouisaBarrett/command-query_practice" target="_blank">Command Query | <p class="links">github.com/LouisaBarrett/command-query_practice</p></a>
+      <p class="category-description">Solutions to a series of kata-like tests practicing how objects change in Ruby</p>
+      <a class="primary-titles" href="https://github.com/LouisaBarrett/resume" target="_blank">Résumé | <p class="links">github.com/LouisaBarrett/resume</p></a>
+      <p class="category-description">Take a look under the hood of this page on GitHub (or see the PDF print version <a class="links" href="http://f.cl.ly/items/2D2S2u0L0Z2B3x0o3X1Y/LouisaBarrett_resume.pdf" target="_blank">here</a>). Constructive feedback is always welcome and appreciated.</p>
+    <h2 class="category-headers">Professional Experience</h2><hr>
+      <p class="primary-titles">ECOS Communications | <span class="location">Boulder, CO</span></p>
+        <p class="category-details">Senior Graphic Designer, museum and exhibit graphics<br>2008–Fall 2013</p>
+        <p class="category-description">Graphic Design project lead: responsible for the creation, development and production management of large- and small-scale cultural history and conservation education projects for a range of clients and uses.</p>
+      <p class="primary-titles">Hero Design Studio | <span class="location">Denver, CO</span></p>
+        <p class="category-details">Contract Production Artist<br>Fall 2008</p>
+      <p class="primary-titles">Archetype 5 | <span class="location">Boulder, CO</span></p>
+        <p class="category-details">Graphic Designer<br>2007–2008</p>
+      <p class="primary-titles">Workshop Design, Inc. | <span class="location">Kansas City, MO</span></p>
+        <p class="category-details">Intern, print and environmental design<br>2006</p>
+  </section>
 </body>
-{% if setting.googleAnalytics %}
-<script>
-window.onload = function() {
-    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];;
-    var date = new Date();
-
-    document.getElementById('date').innerHTML = 'Last updated ' + months[date.getMonth()] + ' ' + date.getFullYear();
-};
-</script>
-
-{% endif %}
-</html>
