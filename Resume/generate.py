@@ -23,7 +23,7 @@ def generate():
 		award=data["award"])
 
 htmlpage = generate()
-filename = "index.html"
+# filename = "index.html"
 
 with open(filename, 'w') as f:
 	f.write(htmlpage)
