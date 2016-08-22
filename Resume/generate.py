@@ -11,7 +11,7 @@ def generate():
 	env = Environment(
 		loader=FileSystemLoader( os.path.dirname(os.path.abspath(__file__)) ),
 		trim_blocks=True )
-	template = env.get_template('template.html')
+	template = env.get_template('index.html')
 	return template.render(
 		profile=data["profile"], 
 		edu=data["education"],
