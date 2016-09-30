@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Storing/Loading Game Data in json file Unity3D C#
+summary: Save and load game data in a json file locally, Also update it from server.
+tags: [Unity, Saving, JSON]
+categories: [Unity, Programming]
 date:   2016-07-20
 
 ---
