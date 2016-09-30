@@ -18,7 +18,7 @@ layout: default
   </header>
 
    {{ post.summary | truncate:150 }}
-        <p><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}" style="float:right">Read More</a></p>
          <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
      
     </div>
