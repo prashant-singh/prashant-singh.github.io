@@ -18,7 +18,8 @@ layout: default
   </header>
 
    {{ post.content | truncate:150 }}
-        <p><a href="{{ post.url | prepend: site.baseurl }}">Read More</p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
+            </div>
 </article>
 <hr>
 {% endfor %}
