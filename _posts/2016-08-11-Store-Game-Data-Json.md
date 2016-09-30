@@ -45,7 +45,6 @@ void Start()
         if(!File.Exists(file))
         {
             File.WriteAllText(file,"{}");
-            File.Delete(file);
         }
         Print(“File Location ”+file);
       // Remove the comment from the below line if you want to update the json file from the given url in inspector.
