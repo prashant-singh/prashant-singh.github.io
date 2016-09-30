@@ -41,11 +41,10 @@ If the file doesn't exist it will create the json file with just a curly braces 
 void Start()
     {
         data = this;
-        file = Application.persistentDataPath +"/SavedSettings";
-        if(!File.Exists(file+".json"))
+        file = Application.persistentDataPath +"/SavedSettings.json";
+        if(!File.Exists(file))
         {
-            File.Create(file);
-            File.WriteAllText(file+".json" ,"{}");
+            File.WriteAllText(file,"{}");
             File.Delete(file);
         }
         Print(“File Location ”+file);
@@ -61,7 +60,7 @@ This method is UpdateFloatData which obviously means to update or create float d
 <pre class="brush: csharp; title: ; notranslate" title="">
 public void UpdateFloatData(string keyName,float FLOATvalue)
     {
-        StreamReader sr = new StreamReader(file+".json");
+        StreamReader sr = new StreamReader(file);
         string readtoend = sr.ReadToEnd();
 
         sr.Close();
@@ -69,18 +68,18 @@ public void UpdateFloatData(string keyName,float FLOATvalue)
         SimpleJSON.JSONNode node = SimpleJSON.JSONNode.Parse(readtoend);
 
         node[keyName].AsFloat = FLOATvalue;    
-        File.WriteAllText(file+".json" , node.ToString());
+        File.WriteAllText(file, node.ToString());
 
     }
 
 public void UpdateIntData(string keyName,int INTValue)
     {
-        StreamReader sr = new StreamReader(file+".json");
+        StreamReader sr = new StreamReader(file);
         string readtoend = sr.ReadToEnd();
         sr.Close();
         SimpleJSON.JSONNode node = SimpleJSON.JSONNode.Parse(readtoend);
         node[keyName].AsInt = INTValue;
-        File.WriteAllText(file+".json" , node.ToString()); 
+        File.WriteAllText(file, node.ToString()); 
     }
 </pre>
 
@@ -92,7 +91,7 @@ public float GetFloatData(string keyName)
     {
         float tempValue = 0;
 
-        StreamReader sr = new StreamReader(file+".json");
+        StreamReader sr = new StreamReader(file);
         string readtoend = sr.ReadToEnd();
         sr.Close();
 
@@ -104,7 +103,7 @@ public float GetFloatData(string keyName)
 public int GetIntData(string keyName)
     {
         int tempValue = 0;
-        StreamReader sr = new StreamReader(file+".json");
+        StreamReader sr = new StreamReader(file);
         string readtoend = sr.ReadToEnd();
         sr.Close();
 
@@ -116,7 +115,7 @@ public int GetIntData(string keyName)
     public string GetStringData(string keyName)
     {
         string tempValue = "";
-        StreamReader sr = new StreamReader(file+".json");
+        StreamReader sr = new StreamReader(file);
         string readtoend = sr.ReadToEnd();
         sr.Close();
         JSONNode N = JSON.Parse(readtoend);
@@ -140,7 +139,7 @@ void GetUpdatedSavedSettingsFromInternet()
     {
         WWW textData = new WWW(URL);
         yield return textData;
-        File.WriteAllText(file+".json" , textData.text.ToString());
+        File.WriteAllText(file, textData.text.ToString());
     }
 </pre>
 
