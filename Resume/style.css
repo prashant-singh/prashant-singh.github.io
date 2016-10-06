@@ -20,6 +20,7 @@ font-family: 'Gudea', sans-serif;
   width: 100%;
 }
 .ctrl-standard.fx-bubbleDown {
+   cursor:pointer;
   color: #DF723E;
   background-color: white;
   border: none;
