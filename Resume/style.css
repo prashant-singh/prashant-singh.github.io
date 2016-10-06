@@ -1,10 +1,11 @@
 /* alternate colors */
 /* corner values for bubble up and down */
 body::before {
+  background-color: white;
   display: none;
 }
 .typ-subhed {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0;
@@ -19,19 +20,28 @@ body::before {
   width: 100%;
 }
 .ctrl-standard.fx-bubbleDown {
-  color: #f0b81f;
-  border-color: #f0b81f;
+  color: #DF723E;
+  background-color: white;
+  border: none;
 }
+
 .ctrl-standard.fx-bubbleDown::after {
   bottom: auto;
-  border-radius: 0 0 $right-val2 $left-val2/0 0 $right-val1 $left-val1;
-  background: #f0b81f;
+  /*border-radius: 0 0 $right-val2 $left-val2/0 0 $right-val1 $left-val1;*/
+  background: #DF723E;
 }
+.ctrl-standard.fx-bubbleDown:hover {
+  color: white;
+  background-color: white;
+   height: 300%;
+}
+
 .ctrl-standard.fx-bubbleDown.is-reversed::after {
   height: 300%;
+
 }
 .ctrl-standard.fx-bubbleDown.is-reversed:hover {
-  color: #f0b81f;
+  color: #DF723E;
 }
 .ctrl-standard.fx-bubbleDown.is-reversed:hover::after {
   height: 0;
@@ -73,14 +83,14 @@ body::before {
 [class*="ctrl-"] {
   padding: 5ox 10px;
   border-radius: 2px;
-  border: 1px solid #231f20;
+  /*border: 1px solid #231f20;*/
 }
 [class*="ctrl-"][class*="fx-"]:hover,
 [class*="ctrl-"][class*="fx-"].active {
-  color: #231f20;
+  color: white;
 }
 [class*="ctrl-"][class*="fx-"].is-reversed {
-  color: #231f20;
+  color: white;
 }
 
   [class*="fx-"],
