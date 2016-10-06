@@ -6,9 +6,9 @@ body::before {
 }
 .typ-subhed {
 font-family: 'Gudea', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0;
+  letter-spacing: 1;
 }
 /* lets create a container and put it in the middle */
 .container {
