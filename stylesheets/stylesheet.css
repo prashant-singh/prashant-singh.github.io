@@ -35,22 +35,24 @@ body {
 	opacity:0.5;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#06C;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+.float {
+  position: fixed;
+
+  width:60px;
+    height:60px;
+  bottom: 40px;
+  right: 40px;
+    background-color:#159957;
+    border-radius:100%;
+    line-height:60px;
+    text-align:center;
+    vertical-align:middle; 
 }
 
-.my-float{
-	font-size:35px;
-	margin:18px;
+.my-float {
+  color:white;
+  font-size:30px;
+line-height: inherit;
 }
 
 a.float + div.label-container {
