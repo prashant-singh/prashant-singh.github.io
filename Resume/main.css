@@ -94,6 +94,16 @@ body {
   margin-top: 1em;
 }
 
+.expYear{
+    color: #808284;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: 1em;
+}
+
 .category-description {
   color: #808284;
   font-size: .9em;
@@ -108,4 +118,50 @@ hr {
   border: 1px dotted #A7A9AB;
   border-style: none none dotted; 
   margin: 0 10% 0 0;
+}
+.resume-print {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-color: #DF723E;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  font-size: 1.5em;
+  cursor: hand;
+  cursor: pointer;
+    color: lightgrey;
+  transition: 0.15s ease-in-out;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.resume-print:hover {
+  color: white;
+}
+.resume-print:active, .resume-print:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.resume-print .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media print {
+  .page-wrap .top-boxes,
+  .page-wrap .resizer {
+    display: none;
+  }
+
+  .skill-breakdown__value {
+    -webkit-print-color-adjust: exact;
+  }
+
+  .resume-print {
+    display: none;
+  }
 }
