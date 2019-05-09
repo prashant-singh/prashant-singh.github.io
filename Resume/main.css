@@ -1,11 +1,13 @@
 body {
   background-color: white;
-  font-family: 'Gudea', sans-serif;
-  margin: 5% 15% 5% 15%;
+    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Oswald', sans-serif;*/
+/*  font-family: 'Gudea', sans-serif;*/
+  margin: 5% 5% 5% 5%;
 }
 
 .name {
-  color: #DF723E;
+  color: #2980B9;
   display: inline-block;
   font-size: 1.4em;
   letter-spacing: 3px;
@@ -13,7 +15,7 @@ body {
 }
 
 .contact-information, .links-container {
-  color: #808284;
+  color: #283747;
   display: inline-block;
   font-size: .8em;
   letter-spacing: 1px;
@@ -22,7 +24,7 @@ body {
 }
 
 .contact-deets {
-  color: #58585B;
+  color: #283747;
   display: inline-block;
   margin-bottom: 2%;
   margin-top: 1.1em;
@@ -30,12 +32,12 @@ body {
 }
 
 .links {
-  color: #58585B;
+  color: #283747;
   display: inline-block;
   text-decoration: none;
 }
   .links:hover {
-    color: #DF723E;
+    color: #2980B9;
   }
 
 .links img {
@@ -45,7 +47,7 @@ body {
 }
 
 .primary-titles {
-  color: #DF723E;
+  color: #2980B9;
   display: inline-block;
   font-size: .9em;
   letter-spacing: 1px;
@@ -54,7 +56,7 @@ body {
 }
 
 .location {
-  color: #58585B;
+  color: #283747;
   display: inline-block;
   font-size: .8em;
   letter-spacing: 2px;
@@ -65,7 +67,7 @@ body {
 }
 
 .category-headers {
-  color: #DF723E;
+  color: #2980B9;
   font-size: .9em;
   letter-spacing: 2px;
   margin-top: 3em;
@@ -74,7 +76,7 @@ body {
 }
 
 .category-details {
-  color: #808284;
+  color: #283747;
   font-size: .9em;
   font-style: italic;
   line-height: 1.4em;
@@ -85,7 +87,7 @@ body {
 }
 
 .category-description-main {
-  color: #808284;
+  color: #34495E;
   font-size: .9em;
   line-height: 1.4em;
   margin-bottom: 1%;
@@ -95,7 +97,7 @@ body {
 }
 
 .expYear{
-    color: #808284;
+    color: #34495E;
   font-size: .9em;
   line-height: 1.4em;
   margin-bottom: 1%;
@@ -105,7 +107,7 @@ body {
 }
 
 .category-description {
-  color: #808284;
+  color: #34495E;
   font-size: .9em;
   line-height: 1.4em;
   margin-bottom: 1%;
@@ -123,7 +125,7 @@ hr {
   position: fixed;
   bottom: 1em;
   right: 1em;
-  background-color: #DF723E;
+  background-color: #2980B9;
   border-radius: 50%;
   height: 2em;
   width: 2em;
