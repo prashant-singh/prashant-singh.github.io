@@ -9,18 +9,20 @@ body {
 .name {
   color: #2980B9;
   display: inline-block;
-  font-size: 1.4em;
-  letter-spacing: 3px;
+  font-size: 3em;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
 .contact-information, .links-container {
+
   color: #283747;
   display: inline-block;
-  font-size: .8em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   line-height: .9em;
   text-transform: uppercase;
+
 }
 
 .contact-deets {
@@ -28,13 +30,15 @@ body {
   display: inline-block;
   margin-bottom: 2%;
   margin-top: 1.1em;
+    font-size: .9em;
   text-decoration: none;
 }
 
 .links {
   color: #283747;
-  display: inline-block;
+  display: inline;
   text-decoration: none;
+    font-size: 1.1em;
 }
   .links:hover {
     color: #2980B9;
@@ -48,10 +52,11 @@ body {
 
 .primary-titles {
   color: #2980B9;
-  display: inline-block;
-  font-size: .9em;
+  display: block;
+  font-size: .8em;
+    margin: 10px;
   letter-spacing: 1px;
-  margin-bottom: -1%;
+  margin-bottom: -.5%;
   text-decoration: none;
 }
 
@@ -109,11 +114,12 @@ body {
 .category-description {
   color: #34495E;
   font-size: .9em;
+    display: inline-block;
   line-height: 1.4em;
   margin-bottom: 1%;
   margin-left: 2%;
   margin-right: 7%;
-  margin-top: .01em;
+  margin-top: 1em;
 }
 
 hr {
