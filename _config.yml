@@ -4,7 +4,7 @@ description         : >-                               # >- means to ignore newl
                       I make games.
 
 url                 : "prashant-singh.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
-baseurl             : "prashant-singh.github.io"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
 repository          : prashant-singh/prashant-singh.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
 #remote_theme       : prashant-singh/prashant-singh.github.io    # uncomment this if you are using it as a remote theme
 
