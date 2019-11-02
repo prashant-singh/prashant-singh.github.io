@@ -1,38 +1,23 @@
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="{{ site.description }}">
 
-  <title>
-    {% if page.title %}
-      {{ page.title }} |
-    {% endif %}
-    {{ site.title }}
-  </title>
+  <title>{{ site.title }}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
-  <!-- Load Javascript and CSS for Semantic UI -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-  <!-- Load Techfolio CSS customizations -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
-
-  <!-- Load a rouge theme from the sample themes in css/rouge.
-       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
-  -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
-
-  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
-  {% if site.mathjax %}
-  <script type="text/javascript"
-          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
-
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ 'demoPortfolio/assets/css/style.css' | relative_url }}" type="text/css">
 
 </head>
