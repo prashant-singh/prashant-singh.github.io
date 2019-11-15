@@ -8,11 +8,8 @@ external_url: https://play.google.com/store/apps/details?id=com.madperception.th
 # T.H.I.S.
 
 "...LOADED WITH HIGH-POWERED GRAPHICS AND A TON OF FEATURES, BUT WHAT IS IN PLACE IS NICELY DONE AND AN ENJOYABLE WAY TO PASS THE TIME."~<a href="https://www.windowscentral.com/this-windows-phone-game-review">WINDOWS CENTRAL</a>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kmP8I5XiRuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://madperception.github.io/" text="Download" %}
