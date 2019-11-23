@@ -9,11 +9,6 @@ description: T.H.I.S is a little minimalist game where your goal is to, well, he
 
 "...LOADED WITH HIGH-POWERED GRAPHICS AND A TON OF FEATURES, BUT WHAT IS IN PLACE IS NICELY DONE AND AN ENJOYABLE WAY TO PASS THE TIME."~<a href="https://www.windowscentral.com/this-windows-phone-game-review">WINDOWS CENTRAL</a>
 
-![preview](https://raw.githubusercontent.com/prashant-singh/prashant-singh.github.io/master/assets/header.png)
-
-![1](https://raw.githubusercontent.com/madperception/madperception.github.io/master/press/this/images/1.png)
-![2](https://raw.githubusercontent.com/madperception/madperception.github.io/master/press/this/images/2.png)
-
 <p class="text-center">
 {% include elements/button.html link="https://madperception.github.io/" text="Download" %}
 </p>
