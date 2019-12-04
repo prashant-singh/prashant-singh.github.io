@@ -34,10 +34,12 @@ public class CameraFollow : MonoBehaviour
 }
 ```
 We will add declare variables.
+
 ```csharp
 [SerializeField] CameraBounds2D bounds;
 Vector2 maxXPositions,maxYPositions;
 ```
+
 maxXPositions and maxYPositions are the X axes and Y axes limits for the camera.
 So for example if themaxXPositions has the value (-13 , 8) which means the minimum x position for the camera is -13 and the maximum will be 8. Same works for the maxYPosition with respect to the Y axes.
 
@@ -74,5 +76,3 @@ Set it to your need and it's done.
 And that's it!
 
 If you get stuck at somewhere let me know.
-
-
