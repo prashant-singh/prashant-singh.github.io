@@ -11,12 +11,20 @@ repository          : prashant-singh/prashant-singh.github.io    # repository me
 ### Author Info ###
 author:
   name              : Prashant Singh
+  job-title         : Game Developer
+  city              : Ahmedabad
+  Country           : Gujarat
+  Country-Code      : IN
+  website-url       : https://thisisprashant.com
   image             : assets/profileimg.png
   email             : prashant19194@gmail.com
   facebook          : prashantsingh.xyz
   github            : prashant-singh
   linkedin          : kshatriyaprashant
   twitter           : _prashantsingh_
+  phone             : +917802898394
+
+
 
 
 #### Pagination ###
