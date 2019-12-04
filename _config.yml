@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Prashant Singh
 description         : >-                               # >- means to ignore newlines until "url:"
-                      I make games.
+                      I make games and stuff.
 
 url                 : "prashant-singh.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
@@ -12,23 +12,11 @@ repository          : prashant-singh/prashant-singh.github.io    # repository me
 author:
   name              : Prashant Singh
   image             : assets/profileimg.png
-#  behance           : your_username
-# dribbble          : your_username
   email             : prashant19194@gmail.com
   facebook          : prashantsingh.xyz
   github            : prashant-singh
-# gitlab            : your_username
-# instagram         : your_username
   linkedin          : kshatriyaprashant
-#  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
   twitter           : _prashantsingh_
-# vimeo             : your_username
-# youtube           : your_channel_name
 
 
 #### Pagination ###

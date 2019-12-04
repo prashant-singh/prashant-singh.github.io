@@ -1,4 +1,5 @@
 ---
+sorting: 5
 name: Camera Bounds for Unity3D
 tools: [editorscript, unity3D,c#,camera]
 image: https://github.com/prashant-singh/camera-bounds-2D/raw/master/camera%20bounds1.gif
@@ -7,14 +8,14 @@ description: A camera bounds visualizer editor tool.
 # Camera Bounds 2D
 A camera bounds visualizer editor tool.
 
-![image](https://github.com/prashant-singh/camera-bounds-2D/raw/master/camera%20bounds1.gif)
+![preview](https://github.com/prashant-singh/camera-bounds-2D/raw/master/camera%20bounds1.gif)
 
 > You can check out the art I used in the gif [here](https://0x72.itch.io/dungeontileset-ii).
 
 # Integration
 
 1. Create an empty game object in the hierarchy.
-2. Assign our script CameraBounds2D.cs to that object. 
+2. Assign our script CameraBounds2D.cs to that object.
 
 Let's assume you have a script like below that follows the player.
 
@@ -34,12 +35,10 @@ public class CameraFollow : MonoBehaviour
 }
 ```
 We will add declare variables.
-
 ```csharp
 [SerializeField] CameraBounds2D bounds;
 Vector2 maxXPositions,maxYPositions;
 ```
-
 maxXPositions and maxYPositions are the X axes and Y axes limits for the camera.
 So for example if themaxXPositions has the value (-13 , 8) which means the minimum x position for the camera is -13 and the maximum will be 8. Same works for the maxYPosition with respect to the Y axes.
 
@@ -53,7 +52,7 @@ If not you can create an Awake() function like below.
         	maxXPositions = bounds.maxXlimit;
         	maxYPositions = bounds.maxYlimit;
 	}
-``` 
+```
 bounds.Initialize(GetComponent<Camera>()); will initialize the bounds script with you current camera.
 And the maxXPos and maxYPos will be assigned with the bounds calculated values.
 

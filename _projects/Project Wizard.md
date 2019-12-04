@@ -1,4 +1,5 @@
 ---
+sorting: 4
 name: Project Wizard for Unity3D
 tools: [unity3D,C#,editorscripting]
 image: https://github.com/prashant-singh/project-wizard/raw/master/screenshot.PNG
