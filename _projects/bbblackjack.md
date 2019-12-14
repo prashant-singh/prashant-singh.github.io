@@ -2,7 +2,7 @@
 sorting: 2
 name: BBBlackjack
 tools: [Android,IOS]
-image: http://bbblackjack.com/web-assets/b-blackjack-logo@3x.png
+image: https://github.com/prashant-singh/prashant-singh.github.io/raw/master/assets/b-blackjack-logo%403x.png
 description: A Blackjack multiplayer game where you can create private clubs and tables to play with your friends or you can play with random players in the world.
 external_url: http://bbblackjack.com/
 ---
