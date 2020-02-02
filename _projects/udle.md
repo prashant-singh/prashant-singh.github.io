@@ -1,0 +1,8 @@
+---
+sorting: 0
+name: UDLE (Zydus Cadila)
+tools: [Android,IOS,Unity3D]
+image: https://raw.githubusercontent.com/prashant-singh/prashant-singh.github.io/master/assets/udle-logo.png
+description: UDLE is a training excercise for MR Persons for the company to gain full knowledge about the newly launched products by Zydus Cadila.
+external_url: https://play.google.com/store/apps/details?id=com.zyduscadila.udle
+---
