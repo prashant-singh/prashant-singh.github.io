@@ -1,0 +1,8 @@
+---
+sorting: 0
+name: Lidl Aquamini
+tools: [Android,IOS,Unity3D]
+image: https://raw.githubusercontent.com/prashant-singh/prashant-singh.github.io/master/assets/aquaminis-header.png
+description: A fun way to teach children about the cleanliness of our Oceans so the Fishes can live freely.
+external_url: https://play.google.com/store/apps/details?id=com.lidl.aquamini&hl=en_IN
+---
