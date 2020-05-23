@@ -25,9 +25,6 @@ author:
   twitter           : _prashantsingh_
   phone             : +91 7802898394
 
-
-
-
 #### Pagination ###
 #paginate: 6
 #paginate_path: "/articles/page-:num/"
