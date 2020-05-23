@@ -13,7 +13,8 @@ author:
   name              : Prashant Singh
   job-title         : Game Developer
   city              : Ahmedabad
-  Country           : Gujarat
+  State             : Gujarat
+  Country           : India
   Country-Code      : IN
   website-url       : https://thisisprashant.com
   image             : assets/profileimg.png
@@ -22,7 +23,7 @@ author:
   github            : prashant-singh
   linkedin          : kshatriyaprashant
   twitter           : _prashantsingh_
-  phone             : +917802898394
+  phone             : +91 7802898394
 
 
 

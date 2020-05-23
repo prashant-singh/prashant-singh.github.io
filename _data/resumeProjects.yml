@@ -1,15 +1,89 @@
-- title: Enduvo
+- title: UDLE for Zydus Cadila
+  description: Learning based Board game for Zydus Cadila internal employees to learn about new products more fun way.
+  platforms:
+    - platform: Android
+      link: https://play.google.com/store/apps/details?id=com.zyduscadila.udle
+
+- title: Lidl AquaMini
+  description: A fun way to teach children about the cleanliness of our Oceans so the Fishes can live freely.
+  platforms:
+    - platform: Android
+      link: https://play.google.com/store/apps/details?id=com.lidl.aquamini&hl=en_IN
+    - platform: IOS
+      link: https://apps.apple.com/nl/app/lidl-aquamini/id1491468845
+
+- title: Lidl AquaMini
+  description: A fun way to teach children about the cleanliness of our Oceans so the Fishes can live freely.
+  platforms:
+    - platform: Android
+      link: https://play.google.com/store/apps/details?id=com.lidl.aquamini&hl=en_IN
+    - platform: IOS
+      link: https://apps.apple.com/nl/app/lidl-aquamini/id1491468845
+
+
+
+
+
+
+- title: Enduvo VR Systems
   description: Enduvo is the immersive content authoring and delivery platform that removes the complexity, inflexibility, and high cost associated with creating virtual and augmented reality content.
-  platforms: HTC Vive | Oculus Rift | Oculus Quest | Oculus Go
+  platforms:
+   - platform: HTC Vive |
+     link: https://enduvo.com/
+   - platform: Oculus Rift |
+   - platform: Oculus Quest |
+   - platform: Oculus Go
 
 - title: Casino Slots
   description: Casino slot games with backend controlled RTP and Jackpot Games.
-  platforms: Windows
+  platforms:
+    - platform: Windows
 
 - title: BBBlackjack
   description: Blackjack game where you can create clubs with your friends and create tables with your chosen game settings.
-  platforms: IOS | Android
+  platforms:
+    - platform: Android |
+      link: https://play.google.com/store/apps/details?id=com.bbblackjack.blackjack
+    - platform: Appstore
+      link: https://itunes.apple.com/us/app/bbblackjack-21-blackjack/id1448291492?ls=1&mt=8
 
 - title: Liquor Store
   description: It's a virtual store where you can walk around in the liquor store and grab liquor bottles from shelf and put in your always following you around cart and at the checkout counter you can place the order.
-  platforms: HTC VIVE
+  platforms: 
+    - platform: HTC Vive
+      link: https://www.youtube.com/watch?v=RnKUMQ5DjhY
+
+- title: VR Mall
+  description: A virtual mall where you as a mall/shop owner can create your own mall with custom departments with products on shelves and can change Prices add banners as advertisement. And customers can Put on the HTC Vive Headset and walk around the mall and pick stuff and add them to the cart and finally at the checkout counter they can place order which will be delivered to their address.
+  platforms: 
+    - platform: HTC Vive
+      link: https://www.youtube.com/watch?v=VE0sh2bXK6Y
+
+- title: Skill Games [Touchscreen Table]
+  description: A 55" touch screen table in which 4 players can sit around it and insert the dollar bills in the bill accepter attached to the table and play the skill games against the store.
+  platforms: 
+    - platform: Finished
+
+
+- title: ExpertJet
+  description: Flight management app where you can see your booked private flyexpertjet.com itineraries and legs.
+  platforms: 
+    - platform: Appstore
+      link: https://apps.apple.com/gb/app/expertjet/id1363888957
+
+- title: Caught!
+  description: A platformer game with a single level but actually it's endless because you run from left to right of the screen and avoid monsters and grandma and also collect clothes and coins.
+  platforms: 
+    - platform: Appstore
+      link: https://apps.apple.com/us/app/id1380075261
+
+      
+- title: Mexican Mariachi!
+  description: A casino slot for mobile with a mexican culture theme and animations.
+  platforms: 
+    - platform: Android
+      link: https://play.google.com/store/apps/details?id=com.paradise.mexicanmariachi
+
+      
+
+
