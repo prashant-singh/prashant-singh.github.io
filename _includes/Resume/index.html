@@ -74,7 +74,7 @@
 
     <section class="section">
       <header>
-        <h2 class='section-title'>Skills</h2>
+        <h2 class='section-title'>Skills<span class="item-count"> ( {{site.data.skills.size}} )</span></h2>
       </header>
       <section id="skills">
         {% for item in site.data.skills%}
@@ -97,7 +97,7 @@
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Work Experience </h2>
+        <h2 class='section-title'>Work Experience <span class="item-count">( {{site.data.work-experience.size}} )</span></h2>
       </header>
 
       <section id="work">
@@ -130,7 +130,7 @@
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Code <span class="item-count">( 9 )</span></h2>
+        <h2 class='section-title'>Code <span class="item-count">( {{site.data.resumeProjects.size}} )</span></h2>
       </header>
 
       <section id="education">
