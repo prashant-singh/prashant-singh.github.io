@@ -1,11 +1,11 @@
 - name : Unity3D
-  level-master : Intermediate
+  level : Intermediate
   keywords:
     - skill: C#
     - skill: Editor Scripting
     - skill: HTC Vive
 
 - name : Cocos Creator
-  level-master : Beginner
+  level : Beginner
   keywords:
     - skill: JS

@@ -82,8 +82,8 @@
           <h3 class="name">
             {{item.name}}
           </h3>
-          <div class="level master">
-            <em>{{item.level-master}}</em>
+          <div class="level {{item.level | downcase}}">
+            <em>{{item.level}}</em>
             <div class="bar"></div>
           </div>
           <ul class="keywords">
