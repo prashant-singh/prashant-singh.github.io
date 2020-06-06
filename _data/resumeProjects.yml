@@ -20,11 +20,6 @@
     - platform: IOS
       link: https://apps.apple.com/nl/app/lidl-aquamini/id1491468845
 
-
-
-
-
-
 - title: Enduvo VR Systems
   description: Enduvo is the immersive content authoring and delivery platform that removes the complexity, inflexibility, and high cost associated with creating virtual and augmented reality content.
   platforms:

@@ -2,7 +2,7 @@
 sorting: 5
 name: Camera Bounds for Unity3D
 tools: [editorscript, unity3D,c#,camera]
-image: https://github.com/prashant-singh/camera-bounds-2D/raw/master/camera%20bounds1.gif
+image: https://github.com/prashant-singh/prashant-singh.github.io/raw/master/assets/camera-bounds-2d.PNG
 description: A camera bounds visualizer editor tool.
 ---
 # Camera Bounds 2D
@@ -12,6 +12,7 @@ A camera bounds visualizer editor tool.
 
 > You can check out the art I used in the gif [here](https://0x72.itch.io/dungeontileset-ii).
 
+[![download](https://img.shields.io/badge/download-package-blue.svg)](https://github.com/prashant-singh/camera-bounds-2D)
 # Integration
 
 1. Create an empty game object in the hierarchy.

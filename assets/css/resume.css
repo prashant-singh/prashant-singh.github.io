@@ -239,13 +239,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
   
   .company, .institution, .organization, .awarder {
-    color: #606d76;
+    color: #EB5F51;
     font-weight: 400;
   }
   
       .code,.platform{
         display: inline;
-        color: #606d76;
+        color: #EB5F51;
     font-weight: 400;
       }
   
@@ -469,8 +469,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       .platformLink
       {
         display: inline;
-        color: #606d76;
-    font-weight: 400;
+        color: #EB5F51;
+        font-weight: 400;
       }
   
       .platformLink::hover
@@ -548,7 +548,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
     .header-left {
       float: left;
-      width: 70%;
+      width: 100%;
       word-break: normal;
     }
     .section header .date {
