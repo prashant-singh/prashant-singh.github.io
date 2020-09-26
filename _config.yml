@@ -33,21 +33,39 @@ author:
 #### Posts Permalink ###
 #permalink: articles/:title
 
+# ## Movies ##
+# collections:
+#   movies:
+#     output: true
+#     permalink: /movies/:name
+
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
+  movies:
+    output: true
+    permalink: /movies/:name
 
+
+# ### Defaults for collections ###
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "projects"
+#     values:
+#       layout: "page"
 
 ### Defaults for collections ###
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "movies"
     values:
       layout: "page"
+
 
 
 ### Exclude from processing ###
