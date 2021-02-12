@@ -1,0 +1,23 @@
+- name: The Beautiful Mind
+  year: 1
+  image: https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg
+
+- name: Interstellar
+  year: 4
+  image: https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg
+
+- name: Batman Begins
+  year: 5
+  image: https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg
+  
+- name: The Dark Knight
+  year: 8
+  image: https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg
+
+- name: The Dark Knight Rises
+  year: 2
+  image: https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg
+
+# - name: The Dark Knight Rises
+#   year: 2012
+#   image: https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg
