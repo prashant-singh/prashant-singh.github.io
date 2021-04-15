@@ -1,16 +1,32 @@
+- title: Juice Team [Math Wizard] for Osmo
+  description: A addition, subtraction and multiplication adventure for ages 6-8! Add fruit pieces for the animals and play sports like Basketball, Soccer, Baseball and Relay Race. 
+  platforms:
+    - platform: Website
+      link: https://www.playosmo.com/en/shopping/games/math-wizard-magical-workshop/
+
+- title: Speed Match for Lumosity
+  description: A fast-paced exercise, Speed Match exercises your brain’s ability to process information and thus improves a wide variety of cognitive skills. 
+  platforms:
+    - platform: Website
+      link: https://www.lumosity.com/en/brain-games/speed-match/
+
+- title: Lost In Migration for Lumosity
+  description: Lost in Migration exercises your attention abilities. Games like Lost in Migration can boost your focus, helping you avoid distraction and improve productivity at work. 
+  platforms:
+    - platform: Website
+      link: https://www.lumosity.com/en/brain-games/lost-in-migration/
+
+- title: Memory Match for Lumosity
+  description: In Memory Match, you must quickly determine whether a flashcard symbol matches the one presented 2 times previously. 
+  platforms:
+    - platform: Website
+      link: https://www.lumosity.com/en/brain-games/memory-match/
+
 - title: UDLE for Zydus Cadila
   description: Learning based Board game for Zydus Cadila internal employees to learn about new products more fun way.
   platforms:
     - platform: Android
       link: https://play.google.com/store/apps/details?id=com.zyduscadila.udle
-
-- title: Lidl AquaMini
-  description: A fun way to teach children about the cleanliness of our Oceans so the Fishes can live freely.
-  platforms:
-    - platform: Android
-      link: https://play.google.com/store/apps/details?id=com.lidl.aquamini&hl=en_IN
-    - platform: IOS
-      link: https://apps.apple.com/nl/app/lidl-aquamini/id1491468845
 
 - title: Lidl AquaMini
   description: A fun way to teach children about the cleanliness of our Oceans so the Fishes can live freely.
