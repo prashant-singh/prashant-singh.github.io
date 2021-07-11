@@ -1,9 +1,9 @@
 <!-- Remote Projects JS -->
 <!-- <script src="{{ '/assets/js/remote-projects.js' | relative_url }}"></script> -->
 
-<div class="card-columns m-4 mt-6">
+  <div class="card-columns m-4 mt-6">
   <!-- Local Projects -->
-  {% assign tempProjects = site.projects | sort: 'sorting'%}
+  {% assign tempProjects = site.projects | sort: 'sorting' | reverse %}
   {% for project in tempProjects %}
 
     {% assign project_type  = "local" %}
