@@ -1,9 +1,11 @@
-- name: OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)
-  image: https://images-na.ssl-images-amazon.com/images/I/61iy2Ru9KdS._SL1500_.jpg 
-  price: Rs. 23,999 [With offer]
-  external_url: https://www.amazon.in/OnePlus-Nord-Blue-128GB-Storage/dp/B095PYTSV8/
+- name: 
+  image: https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Prime_Day2021/Category_Page/Top_Sections_Withoutbank/xcm_banners_in_pd21-580x800_blue_2line-a2zle-yj5nr_opnord_v1_580x800_in-en.jpg 
+  external_url: https://amzn.to/3hZk9p4
+
+- name: 
+  image: https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Prime_Day2021/Category_Page/Top_Sections_Withoutbank/OP_9R580x800.jpg
+  external_url: https://amzn.to/3eSvoOp
 
 - name:
   image: https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/Wearables/Noise/Colorfit_Ultra/AvailableNow/Noise_Ultra_670x645.jpg
-  price: 
-  external_url: https://www.amazon.in/gp/product/B093HCLPJ5/ref=s9_acss_bw_cg_INElec12_2a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=QZ2J7E3NWF525P768R8Q&pf_rd_t=101&pf_rd_p=610c02d8-e57f-424b-930a-eb5217d6f5ae&pf_rd_i=976419031
+  external_url: https://amzn.to/3iEubv0
