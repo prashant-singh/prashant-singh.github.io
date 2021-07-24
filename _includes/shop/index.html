@@ -1,0 +1,21 @@
+<div class="card-columns m-4 mt-6">
+	<!-- Local Projects -->
+	{% assign items = site.data.shopItems | sort: 'sorting'%}
+	{% for item in items %}
+
+	<!-- {% assign item_type  = "local" %} -->
+	{% assign item_img = item.image %}
+	{% assign item_name = item.name %}
+	{% assign item_price = item.price %}
+
+	<!-- {% if item.external_url %} -->
+	{% assign item_url = item.external_url %}
+	<!-- {% else %}
+		{% assign item_url = item.url | relative_url %}
+	  {% endif %} -->
+
+	{% include shop/shop-item-card.html %}
+
+	{% endfor %}
+
+</div>

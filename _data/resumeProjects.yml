@@ -45,10 +45,10 @@
    - platform: Oculus Quest |
    - platform: Oculus Go
 
-- title: Casino Slots
-  description: Casino slot games with backend controlled RTP and Jackpot Games.
-  platforms:
-    - platform: Windows
+# - title: Casino Slots
+#   description: Casino slot games with backend controlled RTP and Jackpot Games.
+#   platforms:
+#     - platform: Windows
 
 - title: BBBlackjack
   description: Blackjack game where you can create clubs with your friends and create tables with your chosen game settings.
@@ -59,13 +59,13 @@
       link: https://itunes.apple.com/us/app/bbblackjack-21-blackjack/id1448291492?ls=1&mt=8
 
 - title: Liquor Store
-  description: It's a virtual store where you can walk around in the liquor store and grab liquor bottles from shelf and put in your always following you around cart and at the checkout counter you can place the order.
+  description: It's a virtual store where you can walk around in the liquor store and grab liquor bottles from shelf and put in your always following you around cart and at the checkout counter you can place the order. Also it has analytics system that generates a full report of behaviour.
   platforms: 
     - platform: HTC Vive
       link: https://www.youtube.com/watch?v=RnKUMQ5DjhY
 
 - title: VR Mall
-  description: A virtual mall where you as a mall/shop owner can create your own mall with custom departments with products on shelves and can change Prices add banners as advertisement. And customers can Put on the HTC Vive Headset and walk around the mall and pick stuff and add them to the cart and finally at the checkout counter they can place order which will be delivered to their address.
+  description: A virtual mall where you can roam around and pick stuff with your hands and put in the cart and checkout the order yourself.
   platforms: 
     - platform: HTC Vive
       link: https://www.youtube.com/watch?v=VE0sh2bXK6Y
@@ -75,25 +75,24 @@
   platforms: 
     - platform: Finished
 
+# - title: ExpertJet
+#   description: Flight management app where you can see your booked private flyexpertjet.com itineraries and legs.
+#   platforms: 
+#     - platform: Appstore
+#       link: https://apps.apple.com/gb/app/expertjet/id1363888957
 
-- title: ExpertJet
-  description: Flight management app where you can see your booked private flyexpertjet.com itineraries and legs.
-  platforms: 
-    - platform: Appstore
-      link: https://apps.apple.com/gb/app/expertjet/id1363888957
-
-- title: Caught!
-  description: A platformer game with a single level but actually it's endless because you run from left to right of the screen and avoid monsters and grandma and also collect clothes and coins.
-  platforms: 
-    - platform: Appstore
-      link: https://apps.apple.com/us/app/id1380075261
+# - title: Caught!
+#   description: A platformer game with a single level but actually it's endless because you run from left to right of the screen and avoid monsters and grandma and also collect clothes and coins.
+#   platforms: 
+#     - platform: Appstore
+#       link: https://apps.apple.com/us/app/id1380075261
 
       
-- title: Mexican Mariachi!
-  description: A casino slot for mobile with a mexican culture theme and animations.
-  platforms: 
-    - platform: Android
-      link: https://play.google.com/store/apps/details?id=com.paradise.mexicanmariachi
+# - title: Mexican Mariachi!
+#   description: A casino slot for mobile with a mexican culture theme and animations.
+#   platforms: 
+#     - platform: Android
+#       link: https://play.google.com/store/apps/details?id=com.paradise.mexicanmariachi
 
       
 
