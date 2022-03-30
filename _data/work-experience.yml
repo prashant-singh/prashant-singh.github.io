@@ -1,7 +1,14 @@
+- company-name: Byju's
+  position: Senior Software Engineer
+  start-date: March 2022
+  end-date: present
+  website: https://byjus.com/
+  summary: Joined as a Sr. Software Engineer.
+
 - company-name: Masala Games
   position: Senior Game Developer
   start-date: March 2020
-  end-date: present
+  end-date: March 2022
   website: http://www.masalagames.com/
   summary: Joined as a Sr. Game Developer and have been working on some Cocos Creator projects and also new experiments with Unity3D.
 
