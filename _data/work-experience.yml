@@ -4,6 +4,7 @@
   end-date: present
   website: https://byjus.com/
   summary: Joined as a Sr. Software Engineer.
+  totalExp:
 
 - company-name: Masala Games
   position: Senior Game Developer
@@ -11,6 +12,7 @@
   end-date: March 2022
   website: http://www.masalagames.com/
   summary: Joined as a Sr. Game Developer and have been working on some Cocos Creator projects and also new experiments with Unity3D.
+  totalExp: (2 Years)
 
 - company-name: Yudiz Solutions Pvt. Ltd.
   position: Technical Head/Game Developer
@@ -18,3 +20,4 @@
   end-date: March 2020
   website: http://yudiz.com/
   summary: Started my career as a junior and made my way to the Technical Head of the department. An amazing experience.
+  totalExp: (5 Years)
