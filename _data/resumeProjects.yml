@@ -74,6 +74,12 @@
   description: A 55" touch screen table in which 4 players can sit around it and insert the dollar bills in the bill accepter attached to the table and play the skill games against the store.
   platforms: 
     - platform: Finished
+    
+- title: Localization Plugin for Unity
+  description: An open source plugin that will help you localize your project with different languages that is easily manageable and also works with runtime language change.
+  platforms: 
+    - platform: Github
+      link: https://github.com/prashant-singh/localization
 
 # - title: ExpertJet
 #   description: Flight management app where you can see your booked private flyexpertjet.com itineraries and legs.
