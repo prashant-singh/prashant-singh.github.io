@@ -21,6 +21,14 @@
   platforms:
     - platform: Website
       link: https://www.lumosity.com/en/brain-games/memory-match/
+      
+- title: MidNight Noise (Realtime Maps with GPS Tracking)
+  description: Realtime GPS tracking on Maps where you can connect with other players and attend live events on a pinned location.
+  platforms:
+    - platform: Android
+      link: https://play.google.com/store/apps/details?id=com.midnightnoise&hl=en&gl=US
+    - platform: IOS
+      link: https://apps.apple.com/ca/app/midnight-noise/id1490544831
 
 - title: UDLE for Zydus Cadila
   description: Learning based Board game for Zydus Cadila internal employees to learn about new products more fun way.
