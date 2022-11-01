@@ -15,7 +15,7 @@
         </a>
       </div>
       <div>
-          <a href="/assets/pdf/Prashant-Singh.pdf" download="">
+          <a href="/Prashant-Singh.pdf" download="">
             <button
               class="bg-yellow-300 hover:bg-green-300 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center">
               <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
