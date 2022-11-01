@@ -1,7 +1,6 @@
 <template>
   <div class="px-4 mx-auto sm:px-6 xl:max-w-6xl xl:px-0">
     <main class="relative mb-auto">
-      <div class="">
         <div class="container mx-auto py-12">
           <div class="flex flex-wrap -m-4">
             <project-card
@@ -15,7 +14,12 @@
             ></project-card>
           </div>
         </div>
-      </div>
+        <a href="/resume">
+            <button
+              class="bg-yellow-300 hover:bg-green-300 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center">
+              <span>More Projects</span>
+            </button>
+          </a>
     </main>
   </div>
 </template>
