@@ -1,7 +1,7 @@
 <template>
   <div class="opacity-100 mt-10">
     <h2 class="my-6 text-2xl text-gray-700 font-bold capitalize dark:text-blue-200">
-      Experience
+      experience
     </h2>
     <ol class="relative border-l border-gray-100 dark:border-gray-700">
       <div v-for="(item, index) in workData">

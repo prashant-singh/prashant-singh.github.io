@@ -1,10 +1,10 @@
 const projectsData = [
   {
-    title: "MidNight Noise (Realtime Maps with GPS Tracking)",
-    description: `Realtime GPS tracking on Maps where you can connect with other players and attend live events on a pinned location.`,
-    imgSrc: "midnight_noise.png",
-    href: "https://midnightnoise.com/",
-    techs:["Unity3D","C#","OpenMapsSDK","ios","Android"]
+    title: "Disney • BYJU'S Early Learn",
+    description: `Worked on the new Home Screen feature and curated list logic.`,
+    imgSrc: "byjus-early-learn-thumbnail.png",
+    href: "https://play.google.com/store/apps/details?id=com.byjus.k3&hl=en_IN&gl=US",
+    techs:["Unity3D","C#","Android","IOS"]
   },
   {
     title: "Juice Team [Math Wizard] for Osmo",
@@ -12,6 +12,13 @@ const projectsData = [
     imgSrc: "juice-team-thumb.jpg",
     href: "https://www.playosmo.com/en/shopping/games/math-wizard-magical-workshop/",
     techs:["Unity3D","C#","iPad"]
+  },
+  {
+    title: "MidNight Noise (Realtime Maps with GPS Tracking)",
+    description: `Realtime GPS tracking on Maps where you can connect with other players and attend live events on a pinned location.`,
+    imgSrc: "midnight_noise.png",
+    href: "https://midnightnoise.com/",
+    techs:["Unity3D","C#","OpenMapsSDK","ios","Android"]
   },
   {
     title: "Lidl AquaMini",
