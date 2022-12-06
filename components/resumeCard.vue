@@ -10,9 +10,9 @@
 					<div v-if="platformLinks.length > 0">
 						<div v-for="item in platformLinks" class="inline-block">
 							<a :href="item.link" target="_blank">
-								<span
+								<span 
 									class="bg-yellow-300 text-black text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-white-800 ml-3">
-									{{ item.platform }}
+									{{ item.platform }} <img class="w-4 h-4 inline-block" src="~assets/icon/external.svg"/>
 								</span>
 							</a>
 						</div>
