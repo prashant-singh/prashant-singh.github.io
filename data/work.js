@@ -4,8 +4,8 @@ const workData = [
 	  position:"Senior Software Engineer",
 	  details: `Making the learning experience for kids of LKG to 3rd grade more fun. Working on the StrangeIOC framework for the architecture.`,
 	  startDate: "March-2022",
-	  endDate: "Present",
-	  years: ""
+	  endDate: "Dec-2022",
+	  years: "9 Months"
 	},
 	{
 		companyName: "Masala Games",
