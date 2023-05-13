@@ -5,7 +5,7 @@ const workData = [
 	  details: `Making the learning experience for kids of LKG to 3rd grade more fun. Working on the StrangeIOC framework for the architecture.`,
 	  startDate: "March-2022",
 	  endDate: "Dec-2022",
-	  years: "9 Months"
+	  years: ""
 	},
 	{
 		companyName: "Masala Games",
