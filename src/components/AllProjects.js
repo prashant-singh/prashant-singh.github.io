@@ -10,6 +10,7 @@ import { faGooglePlay, faWindows, faApple, faGithub } from '@fortawesome/free-br
 const AllProjects = () => {
 	useEffect(() => {
 		document.title = profile.name + ' | All Projects';
+		window.scrollTo(0, 0);
 	}, []);
 
 	return (

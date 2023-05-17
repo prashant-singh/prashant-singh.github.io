@@ -21,6 +21,7 @@ const Projects = () => {
 	useEffect(() => {
 		document.title = profile.name + ' | Projects';
 		LogAnalyticsEvent(eventNames.project_page_view);
+		window.scrollTo(0, 0);
 	}, []);
 
 	return (
