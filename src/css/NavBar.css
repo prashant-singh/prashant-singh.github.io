@@ -1,0 +1,21 @@
+.NavBarContainer {
+	max-width: 50%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.nav_item_default {
+	margin: 10px;
+	color: grey;
+	font-weight: 900;
+	font-size: larger;
+	text-decoration: none;
+}
+
+.nav_item_active {
+	margin: 10px;
+	color: black;
+	font-weight: 900;
+	font-size: larger;
+	text-decoration: none;
+}

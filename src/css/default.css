@@ -1,0 +1,52 @@
+.linkButton {
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+}
+
+.linkButton:hover {
+	color: #ffa220;
+}
+
+.container {
+	max-width: 900px;
+	padding: 20px;
+}
+
+.rounded-top-left {
+	border-top-left-radius: 0.3rem;
+}
+
+.profile-circle {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.profile-img {
+	display: inline;
+	margin: auto;
+	height: 100%;
+	width: auto;
+}
+
+.project-thumb {
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.platformButton:hover {
+	background-color: black;
+	color: white;
+}
+
+.tag {
+	background-color: rgb(47, 144, 255);
+	color: rgb(255, 255, 255);
+}
+
+.companyBG {
+	background-color: #ffe14c;
+}

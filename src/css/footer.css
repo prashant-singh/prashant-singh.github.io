@@ -1,0 +1,9 @@
+.footerButton:hover {
+	scale: 1.2;
+	transition: all 0.2s ease;
+}
+
+.footerButton {
+	scale: 1;
+	transition: all 0.2s ease;
+}
