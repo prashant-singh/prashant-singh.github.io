@@ -28,70 +28,66 @@ const Projects = () => {
 		<div className="container">
 			<div className="row justify-content-center">
 				{
-					workList.map(item => (
-						<>
-							{
-								item.highlight === false ? null :
-									<div className="col-md-8 col-lg-6 col-12 p-3" key={item.name}>
-										<div className="card h-100 bg-white rounded-0">
+					workList.map((item, index) => (
+						item.highlight === false ? null :
+							<div className="col-md-8 col-lg-6 col-12 p-3" key={index}>
+								<div className="card h-100 bg-white rounded-0">
+									{
+										item.img === undefined ? null : <img className="card-img-top project-thumb shadow rounded-0" src={'./' + item.img} alt="img" />
+									}
+									<div className="card-body">
+										<h5 className="card-title h5 text-center">{item.name}</h5>
+										<p className="card-text text-center text-muted">{item.detail}</p>
+										<div className='row row-cols-auto d-flex justify-content-center'>
 											{
-												item.img === undefined ? null : <img className="card-img-top project-thumb shadow rounded-0" src={'./' + item.img} alt="img" />
+												item.tags.map((tag, tagIndex) => (
+													<div className='col' key={tagIndex}>
+														<div className="col badge rounded-1 tag">{tag}</div>
+													</div>
+												))
 											}
-											<div className="card-body">
-												<h5 className="card-title h5 text-center">{item.name}</h5>
-												<p className="card-text text-center text-muted">{item.detail}</p>
-												<div className='row row-cols-auto d-flex justify-content-center'>
-													{
-														item.tags.map(tag => (
-															<div className='col' key={tag}>
-																<div className="col badge rounded-1 tag">{tag}</div>
-															</div>
-														))
-													}
-												</div>
-												<div className='row row-cols-auto d-flex justify-content-center py-4'>
-													{
-														item.links.map(link => (
-															<div className='col py-2' key={link.Name}>
-																<a href={link.url} onClick={() => LogAnalyticsEvent(item.event_name + eventNames.project_event)} className='btn border-dark rounded-2 platformButton'>
-																	{
-																		(() => {
+										</div>
+										<div className='row row-cols-auto d-flex justify-content-center py-4'>
+											{
+												item.links.map((link, linkIndex) => (
+													<div className='col py-2' key={linkIndex}>
+														<a href={link.url} onClick={() => LogAnalyticsEvent(item.event_name + eventNames.project_event)} className='btn border-dark rounded-2 platformButton'>
+															{
+																(() => {
 
-																			switch (link.Name) {
-																				case 'Android':
-																					return (
-																						<FontAwesomeIcon icon={faGooglePlay} className='pe-1' />
-																					)
-																				case 'Windows':
-																					return (
-																						<FontAwesomeIcon icon={faWindows} className='pe-1' />
-																					)
-																				case 'IOS':
-																					return (
-																						<FontAwesomeIcon icon={faApple} className='pe-1' />
-																					)
-																				case 'github':
-																					return (
-																						<FontAwesomeIcon icon={faGithub} className='pe-1' />
-																					)
-																				default:
-																					return (
-																						<FontAwesomeIcon icon={faGlobe} className='pe-1' />
-																					)
-																			}
+																	switch (link.Name) {
+																		case 'Android':
+																			return (
+																				<FontAwesomeIcon icon={faGooglePlay} className='pe-1' />
+																			)
+																		case 'Windows':
+																			return (
+																				<FontAwesomeIcon icon={faWindows} className='pe-1' />
+																			)
+																		case 'IOS':
+																			return (
+																				<FontAwesomeIcon icon={faApple} className='pe-1' />
+																			)
+																		case 'github':
+																			return (
+																				<FontAwesomeIcon icon={faGithub} className='pe-1' />
+																			)
+																		default:
+																			return (
+																				<FontAwesomeIcon icon={faGlobe} className='pe-1' />
+																			)
+																	}
 
-																		})()}
-																	{link.Name}
-																</a>
-															</div>
-														))
-													}
-												</div>
-											</div>
+																})()}
+															{link.Name}
+														</a>
+													</div>
+												))
+											}
 										</div>
 									</div>
-							}
-						</>
+								</div>
+							</div>
 					))
 				}
 				<div className='text-center'>

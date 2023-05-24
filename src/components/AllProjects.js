@@ -15,22 +15,29 @@ const AllProjects = () => {
 
 	return (
 		<div className="container">
+			<div className='row justify-content-start'>
+				<h2 className='col-md-auto'>All Projects</h2>
+				<div className='col-md-auto'>
+					<small className=" badge bg-dark">{workList.length}</small>
+				</div>
+			</div>
 			<div className="row justify-content-center">
 				{
 					workList.map((item, index) => (
-						<div className="col-12 p-3" key={item.name}>
+
+						<div className="col-12 p-3" key={index}>
 							{
 								index === workList.length || index === 0 ? null :
 									<div className='border border-secondary border-top-0 border-end-0 border-start-0' />
 							}
-							<li className="list-group-item py-4">
+							<ul className="list-group-item py-4">
 								<li className="row justify-content-start">
 									<div className="col-md-auto h4">
 										{item.name}
 									</div>
 									{
-										item.links.map(link =>
-											<div className='col-md-auto' key={link.url}>
+										item.links.map((link, index) =>
+											<div className='col-md-auto' key={index}>
 												<a href={link.url} className="btn text-dark badge bg-warning">
 													{
 														(() => {
@@ -70,14 +77,14 @@ const AllProjects = () => {
 								</div>
 								<div>
 									{
-										item.tags.map(tag =>
-											<span className='badge rounded text-primary border border-primary mx-2 px-2'>
+										item.tags.map((tag, index) =>
+											<span className='badge rounded text-primary border border-primary mx-2 px-2' key={index}>
 												{tag}
 											</span>
 										)
 									}
 								</div>
-							</li>
+							</ul>
 						</div>
 					))
 				}
