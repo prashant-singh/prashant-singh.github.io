@@ -9,6 +9,7 @@ import Redirect from './Redirect';
 import redirects from '../data/redirects';
 import FirebaseInitialize from './FirebaseInitialize';
 import AllProjects from './AllProjects';
+import FDCalculator from './FDCalculator';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<About />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/AllProjects' element={<AllProjects />} />
+        <Route path='/FDCalculator' element={<FDCalculator />} />
         <Route path='*' element={<Redirect url="/" />} />
         {
           redirects.map((item) => (
