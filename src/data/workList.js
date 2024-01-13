@@ -16,7 +16,7 @@ const workList = [
 			}
 		],
 		img: "projects/wordsearch-crosswordpuzzle.png",
-		detail: "Worked on the new Home Screen feature and curated list logic.",
+		detail: "Crossword puzzle game with powerups and multiple language support.",
 		event_name: "word_search",
 		highlight: true,
 	},
