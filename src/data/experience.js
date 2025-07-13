@@ -3,7 +3,7 @@ const experience = [
 		company: "Elixir Gamelabs",
 		position: "Sr. Game Developer",
 		start: "Dec-2022",
-		end: "present",
+		end: "Jan-2024",
 		description: "Working on some of the awesome games."
 	},
 	{
