@@ -45,12 +45,6 @@ const Author = () => {
 								{profile.linkedin}
 							</a>
 						</div>
-						<div className='flex py-1'>
-							<a href='/prashant-singh.pdf' onClick={() => LogAnalyticsEvent(eventNames.download_resume_clicked)} className='btn btn-warning w-75 rounded-0 border-0 platformButton' download="">
-								<FontAwesomeIcon icon={faDownload} className='pe-2' />
-								RESUME
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
